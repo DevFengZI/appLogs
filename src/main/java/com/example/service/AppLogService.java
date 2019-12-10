@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/applog")
 public class AppLogService {
-    String sql = "SELECT * from user_behavior WHERE month='8'";
+    String sql = "SELECT * FROM user_behavior";
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
